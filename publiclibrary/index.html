@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <title>Minimal Plain JS App</title>
+ <script src="src/c/initialize.js"></script>
+ <script src="src/m/Book.js"></script>
+</head>
+<body>
+ <h1>Public Library</h1>
+ <h2>Minimal App</h2>
+ <h3>An example of a minimal effort front-end web app built with plain JavaScript</h3>
+ <menu>
+  <li><a href="createBook.html"><button type="button">Create</button></a> a new book record</li>
+  <li><a href="retrieveAndListAllBooks.html"><button type="button">Retrieve</button></a> and list all book records</li>
+  <li><a href="updateBook.html"><button type="button">Update</button></a> a book record</li>
+  <li><a href="deleteBook.html"><button type="button">Delete</button></a> a book record</li>
+  <hr />
+  <li><button type="button" onclick="Book.clearData()">Clear</button> database</li>
+  <li><button type="button" onclick="Book.generateTestData()">Generate</button> test data</li>
+    </menu>
+    
+</body>
+</html>
